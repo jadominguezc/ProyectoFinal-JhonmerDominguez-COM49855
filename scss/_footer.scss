@@ -1,0 +1,37 @@
+footer {
+    background-color: rgba(0, 0, 0);
+
+    .listapie {
+        text-align: center;
+    }
+
+    .lista {
+        display: inline-block;
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .pie {
+        text-decoration: none;
+        color: rgb(245, 119, 17);
+        padding: 0px 20px;
+        font-weight: 100;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #pie {
+        font-family: 'DM Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+    }
+
+    .logosRedes {
+        text-align: center;
+    }
+
+
+}

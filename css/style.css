@@ -1,0 +1,509 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(https://cdn.create.vista.com/api/media/small/23860159/stock-vector-seamless-subtle-patterns-with-circle);
+  background-repeat: repeat;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+}
+footer .listapie {
+  text-align: center;
+}
+footer .lista {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+footer .pie {
+  text-decoration: none;
+  color: rgb(245, 119, 17);
+  padding: 0px 20px;
+  font-weight: 100;
+  text-align: center;
+  text-transform: uppercase;
+}
+footer #pie {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+footer .logosRedes {
+  text-align: center;
+}
+
+.encabezado {
+  border-bottom: 1px solid black;
+  background-color: black;
+}
+.encabezado .logo {
+  width: 10rem;
+}
+.encabezado .fuentes {
+  font-size: 1.5rem;
+  padding: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+.encabezado .fuentes li a:hover {
+  background-color: gray;
+  color: #fff;
+}
+
+
+.encabezado .carrito-encabezado{
+  font-weight: bolder;
+  font-size: x-large;
+  color: rgb(247, 165, 99);
+  margin-right: 1.5rem;
+}
+
+.encabezado .carrito-encabezado #nav-item-carrito{
+  list-style:none
+}
+
+
+.contenidoIndex #parrafoinicio {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  text-transform: none;
+  font-weight: lighter;
+  margin-left: auto;
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.76);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.contenidoIndex .video {
+  size-adjust: auto;
+}
+
+.tituloIndex {
+  text-decoration: none;
+  color: rgb(245, 119, 17);
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.cardNosotros {
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 0;
+  max-width: 1200px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 3.5em;
+  flex-wrap: wrap;
+}
+.cardNosotros .cardItem {
+  background-color: rgba(0, 0, 0, 0.76);
+  padding-bottom: 3em;
+  flex-basis: 400px;
+  max-width: 400px;
+  flex-grow: 1;
+  border-radius: 10px;
+}
+.cardNosotros .cardContent {
+  width: 90%;
+  margin: 0 auto;
+}
+.cardNosotros .cardPicture {
+  width: 90%;
+  margin: 0;
+  position: relative;
+}
+.cardNosotros .cardImag {
+  width: 360px;
+  height: 450px;
+  align-items: center;
+}
+.cardNosotros .cardTitle {
+  margin-top: 1rem;
+  margin-bottom: 1em;
+  text-decoration: none;
+  color: rgb(245, 119, 17);
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+.cardNosotros .cardParagraph {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  text-transform: none;
+  font-weight: lighter;
+  margin-left: auto;
+  text-align: justify;
+  padding: 1rem;
+}
+
+.bloqueEventos {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  text-transform: none;
+  font-weight: lighter;
+  margin-left: auto;
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.76);
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.bloqueEventos .colorBtn {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  background-color: rgb(245, 119, 17);
+  color: black;
+  border-color: black;
+  font-weight: bolder;
+  font-weight: bold;
+}
+.bloqueEventos .colorBtn:hover {
+  background-color: rgb(247, 165, 99);
+  color: black;
+  font-weight: bold;
+}
+.bloqueEventos .tituloform1 {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: rgb(245, 119, 17);
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin: 1rem;
+}
+.bloqueEventos .tituloform2 {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.bloqueContacto {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  text-transform: none;
+  font-weight: lighter;
+  margin-left: auto;
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.76);
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.bloqueContacto .tituloContacto {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: rgb(245, 119, 17);
+  font-size: 40px;
+  text-align: center;
+  font-weight: bolder;
+}
+.bloqueContacto .lineaContacto {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  text-align: center;
+  font-weight: lighter;
+}
+.bloqueContacto .embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+.bloqueContacto .embed-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.tituloMenuOtaku {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: rgb(245, 119, 17);
+  font-size: 40px;
+  text-align: center;
+  font-weight: bolder;
+  margin: 1rem;
+}
+
+.bloqueMenu .tituloClase {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: rgb(245, 119, 17);
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+  padding: 2rem;
+}
+.bloqueMenu .card {
+  margin: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.76);
+}
+.bloqueMenu .card-img-top {
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+}
+.bloqueMenu .card-img-top:hover {
+  filter: saturate(150%);
+}
+.bloqueMenu .card-title {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: rgb(245, 119, 17);
+  font-weight: bolder;
+  font-size: 25px;
+}
+.bloqueMenu .card-text {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: normal;
+}
+.bloqueMenu .card-price {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+}
+.bloqueMenu .precioProducto {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+}
+.bloqueMenu .row {
+  margin: 1rem;
+}
+.bloqueMenu .btn {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  background-color: rgb(245, 119, 17);
+  color: black;
+  border-color: black;
+  font-weight: bolder;
+}
+.bloqueMenu .colorBtn:hover {
+  background-color: rgb(247, 165, 99);
+  color: black;
+  font-weight: bold;
+}
+
+.bloqueMenu #carro-de-compras {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+  padding: 3rem;
+  text-align: center;
+
+}
+
+.bloqueMenu #titulo-Carro-Compras{
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: rgb(245, 119, 17);
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.bloqueMenu #lista-productos{
+  list-style-type: none;
+}
+.bloqueMenu #vaciar-carro{
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  background-color: rgb(245, 119, 17);
+  color: black;
+  border-color: black;
+  font-weight: bolder;
+}
+.bloqueMenu #vaciar-carro:hover{
+  background-color: rgb(247, 165, 99);
+  color: black;
+  font-weight: bold;
+}
+.bloqueMenu #volver-al-menu{
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  background-color: rgb(245, 119, 17);
+  color: black;
+  border-color: black;
+  font-weight: bolder;
+}
+.bloqueMenu #volver-al-menu:hover{
+  background-color: rgb(247, 165, 99);
+  color: black;
+  font-weight: bold;
+}
+
+.bloqueMenu #continuarPedido{
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  background-color: rgb(245, 119, 17);
+  color: black;
+  border-color: black;
+  font-weight: bolder;
+}
+
+.bloqueMenu #continuarPedido:hover{
+  background-color: rgb(247, 165, 99);
+  color: black;
+  font-weight: bold;
+}
+
+.bloqueMenu #pagar{
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  background-color: rgb(245, 119, 17);
+  color: black;
+  border-color: black;
+  font-weight: bolder;
+}
+
+.bloqueMenu #pagar:hover{
+  background-color: rgb(247, 165, 99);
+  color: black;
+  font-weight: bold;
+}
+
+.bloqueMenu #volver{
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  background-color: rgb(245, 119, 17);
+  color: black;
+  border-color: black;
+  font-weight: bolder;
+}
+
+.bloqueMenu #volver:hover{
+  background-color: rgb(247, 165, 99);
+  color: black;
+  font-weight: bold;
+}
+
+.bloqueMenu #btn-pagar{
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  background-color: rgb(245, 119, 17);
+  color: black;
+  border-color: black;
+  font-weight: bolder;
+}
+
+.bloqueMenu #btn-pagar:hover{
+  background-color: rgb(247, 165, 99);
+  color: black;
+  font-weight: bold;
+}
+
+.bloqueMenu #total{
+  font-weight: bolder;
+  font-size: xx-large;
+}
+.bloqueMenu .carrito-de-compras{
+  text-align: center;
+  font-size: large;
+  font-weight: bolder;
+}
+.bloqueMenu .carrito-de-compras #titulo-Carro-Compras{
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.bloqueMenu .carrito-de-compras #fotoDelCliente {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.bloqueMenu .carrito-de-compras #nombreDelCliente{
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: x-large;
+}
+
+.bloqueMenu .carrito-de-compras #correoDelCliente{
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: x-large;
+}
+
+.bloqueMenu .carrito-de-compras #telefonoDelCliente{
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: x-large;
+}
+
+.bloqueMenu .carrito-de-compras #direccionDelCliente{
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: x-large;
+}
+
+.carrito-de-compras{
+  font-family: "DM Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  text-transform: none;
+  font-weight: lighter;
+  margin-left: auto;
+  text-align: justify;
+  background-color: rgba(0, 0, 0, 0.76);
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

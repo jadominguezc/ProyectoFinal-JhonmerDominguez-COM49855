@@ -1,0 +1,94 @@
+.bloqueMenu {
+    .tituloClase {
+        font-family: 'DM Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        color: rgb(245, 119, 17);
+        text-align: center;
+        font-weight: bolder;
+        font-size: 2rem;
+        padding: 2rem;
+    }
+
+    .card {
+        margin: 0.5rem;
+        background-color: rgba(0, 0, 0, 0.76)
+    }
+
+    .card-img-top {
+        padding: 0.5rem;
+        border-radius: 0.8rem;
+
+        &:hover {
+            filter: saturate(150%);
+        }
+    }
+
+    .card-title {
+        font-family: 'DM Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        color: rgb(245, 119, 17);
+        font-weight: bolder;
+        font-size: 25px;
+    }
+
+    .card-text {
+        font-family: 'DM Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-weight: normal;
+
+    }
+
+    .card-price {
+        font-family: 'DM Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-weight: bolder;
+        font-size: larger;
+    }
+
+    .precioProducto {
+        font-family: 'DM Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-weight: bolder;
+        font-size: larger;
+    }
+
+
+
+    #carro-de-compras{
+        font-family: 'DM Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-weight: bolder;
+        font-size: larger;
+        padding: 2rem ; 
+    }
+
+    .tituloCarroCompras{
+        font-family: "DM Sans", sans-serif;
+        font-family: "Roboto", sans-serif;
+        color: rgb(245, 119, 17);
+        font-weight: bolder;
+        font-size: 25px;
+    }
+
+    #lista-productos{
+        list-style-type: none;
+    }
+
+    .row {
+        margin: 1rem;
+    }
+
+    .btn {
+        @include botones
+    }
+
+    .colorBtn:hover {
+        background-color: rgb(247, 165, 99);
+        color: black;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,201 @@
+@mixin contenidoParrafos {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    text-transform: none;
+    font-weight: lighter;
+    margin-left: auto;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+@mixin botones {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    background-color: rgb(245, 119, 17);
+    color: black;
+    border-color: black;
+    font-weight: bolder;
+}
+
+.contenidoIndex {
+    #parrafoinicio {
+        @include contenidoParrafos;
+    }
+
+    .video {
+        size-adjust: auto;
+    }
+}
+
+
+@mixin titulos {
+    text-decoration: none;
+    color: rgb(245, 119, 17);
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tituloIndex{
+    @include titulos;
+}
+
+.cardNosotros {
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 0;
+    max-width: 1200px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3.5em;
+    flex-wrap: wrap;
+
+    .cardItem {
+        background-color: rgba(0, 0, 0, 0.76);
+        padding-bottom: 3em;
+        flex-basis: 400px;
+        max-width: 400px;
+        flex-grow: 1;
+        border-radius: 10px;
+    }
+
+    .cardContent {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .cardPicture {
+        width: 90%;
+        margin: 0;
+        position: relative;
+    }
+
+    .cardImag {
+        width: 360px;
+        height: 450px;
+        align-items: center;
+
+    }
+
+    .cardTitle {
+        margin-top: 1rem;
+        margin-bottom: 1em;
+        @include titulos;
+    }
+
+    .cardParagraph {
+        font-family: 'DM Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: large;
+        text-transform: none;
+        font-weight: lighter;
+        margin-left: auto;
+        text-align: justify;
+        padding: 1rem;
+    }
+}
+
+.bloqueEventos {
+    @include contenidoParrafos;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    .colorBtn {
+        @include botones;
+        font-weight: bold;
+    }
+
+    .colorBtn:hover {
+        background-color: rgb(247, 165, 99);
+        color: black;
+        font-weight: bold;
+    }
+
+    @mixin titulosh1 {
+        font-family: 'DM Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        color: rgb(245, 119, 17);
+        font-size: 40px;
+        text-align: center;
+        font-weight: bold;
+        margin: 1rem;
+    }
+
+    .tituloform1 {
+        @include titulosh1;
+    }
+
+    .tituloform2 {
+        font-family: 'DM Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: lighter;
+        text-align: center;
+    }
+
+}
+
+.bloqueContacto {
+    @include contenidoParrafos;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    .tituloContacto {
+        font-family: 'DM Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        color: rgb(245, 119, 17);
+        font-size: 40px;
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    .lineaContacto {
+        font-family: 'DM Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        text-align: center;
+        font-weight: lighter;
+    }
+
+    .embed-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .embed-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.tituloMenuOtaku {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgb(245, 119, 17);
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    margin: 1rem;
+}

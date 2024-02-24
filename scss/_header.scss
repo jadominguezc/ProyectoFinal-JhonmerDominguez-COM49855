@@ -1,0 +1,23 @@
+.encabezado {
+    border-bottom: 1px solid black;
+    background-color: black;
+
+
+    .logo {
+        width: 10rem;
+    }
+
+    .fuentes {
+        font-size: 1.5rem;
+        padding: 2rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .fuentes li a:hover {
+        background-color: gray;
+        color: #fff;
+    }
+
+}
